@@ -1,0 +1,139 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: cybersecurity_questions
+  examples: |
+    - What is cybersecurity?
+    - How can I protect myself online?
+    - What should I do if my data is compromised?
+
+- intent: phishing_awareness
+  examples: |
+    - What is phishing?
+    - How do I recognize phishing attempts?
+    - What should I do if I receive a suspicious email?
+
+- intent: deep_fake_info
+  examples: |
+    - What are deep fake videos?
+    - How can I identify a deep fake video?
+    - What should I do if I see a deep fake video?
+
+- intent: reporting_issues
+  examples: |
+    - How do I report a cybercrime?
+    - Where can I report a cybersecurity issue?
+    - What steps should I take to report an online scam?
+
+- intent: punishments_india
+  examples: |
+    - What are the legal consequences for cybercrimes in India?
+    - What penalties can someone face for phishing in India?
+    - How are cybercrime cases handled in India?
+
+- intent: promote_website
+  examples: |
+    - Tell me more about your website.
+    - Where can I find more information about cybersecurity?
+    - How can I use your CyberSafe Extension?
+
+- intent: promote_extension
+  examples: |
+    - What does your CyberSafe Extension do?
+    - How can I install the CyberSafe Extension?
+    - Why should I use your extension?
+
+- intent: ask_for_help
+  examples: |
+    - Can you help me with cybersecurity issues?
+    - I need advice on online safety.
+    - How can your chatbot assist me with security concerns?

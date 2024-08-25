@@ -1,0 +1,53 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Provide information on cybersecurity questions
+  steps:
+  - intent: cybersecurity_questions
+  - action: utter_cybersecurity_questions
+
+- rule: Provide phishing awareness tips
+  steps:
+  - intent: phishing_awareness
+  - action: utter_phishing_awareness
+
+- rule: Provide information on deep fake videos
+  steps:
+  - intent: deep_fake_info
+  - action: utter_deep_fake_info
+
+- rule: Provide guidance on reporting issues
+  steps:
+  - intent: reporting_issues
+  - action: utter_reporting_issues
+
+- rule: Provide information on punishments in India
+  steps:
+  - intent: punishments_india
+  - action: utter_punishments_india
+
+- rule: Promote the website
+  steps:
+  - intent: promote_website
+  - action: utter_promote_website
+
+- rule: Promote the extension
+  steps:
+  - intent: promote_extension
+  - action: utter_promote_extension
+
+- rule: Offer help with cybersecurity concerns
+  steps:
+  - intent: ask_for_help
+  - action: utter_helpful_to_women

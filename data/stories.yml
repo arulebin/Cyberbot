@@ -1,0 +1,86 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cybersecurity advice
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cybersecurity_questions
+  - action: utter_cybersecurity_questions
+
+- story: phishing awareness
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: phishing_awareness
+  - action: utter_phishing_awareness
+
+- story: deep fake information
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: deep_fake_info
+  - action: utter_deep_fake_info
+
+- story: reporting issues
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: reporting_issues
+  - action: utter_reporting_issues
+
+- story: punishments in India
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: punishments_india
+  - action: utter_punishments_india
+
+- story: promote website
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: promote_website
+  - action: utter_promote_website
+
+- story: promote extension
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: promote_extension
+  - action: utter_promote_extension
+
+- story: helpful to women
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_for_help
+  - action: utter_helpful_to_women

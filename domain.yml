@@ -1,0 +1,65 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - cybersecurity_questions
+  - phishing_awareness
+  - deep_fake_info
+  - reporting_issues
+  - punishments_india
+  - promote_website
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_cybersecurity_questions:
+  - text: "I'm here to help with any cybersecurity questions you have. What would you like to know?"
+
+  utter_deep_fake_info:
+  - text: "Deep fake videos use AI to create realistic but fake videos. They can be used maliciously to spread misinformation. If you encounter a deep fake, verify the information from reliable sources and report it if necessary."
+
+  utter_reporting_issues:
+  - text: "If you encounter a cybersecurity issue, you should report it to the relevant authorities or organizations. You can report cybercrimes at the [Cyber Crime Portal](https://cybercrime.gov.in/). You can also seek help from cybersecurity professionals to address the problem."
+
+  utter_phishing_awareness:
+  - text: "Phishing is a type of cyber attack where attackers try to deceive you into providing sensitive information. Look out for suspicious emails or messages that ask for personal information. Always verify the source before clicking on any links. For more information on how to protect yourself from phishing, visit [Phishing Awareness](https://cyber-safe-web.vercel.app/Features/PhishingDetectionTips/features.html)."
+
+  utter_punishments_india:
+  - text: "In India, cybersecurity issues like phishing, cyber harassment, and data breaches can lead to severe legal consequences under laws such as the Information Technology Act, 2000. Penalties can include fines and imprisonment depending on the severity of the offense."
+
+  utter_promote_website:
+  - text: "Check out our website for more information on cybersecurity and to use our CyberSafe Extension. It's designed to protect you from various online threats and keep you informed."
+
+  utter_promote_extension:
+  - text: "Don't forget to install our CyberSafe Extension for enhanced protection against phishing and other cyber threats. It's a valuable tool for ensuring your online safety."
+
+  utter_helpful_to_women:
+  - text: "Our chatbot is especially designed to provide support and guidance to women regarding cybersecurity issues. If you need any help or information, feel free to ask!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
