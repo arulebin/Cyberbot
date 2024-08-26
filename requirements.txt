@@ -1,3 +1,5 @@
-pip==24.2
+pip
 rasa
 rasa-sdk
+setuptools 
+wheel
