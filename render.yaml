@@ -2,6 +2,8 @@ services:
   - type: web
     name: CyberBot
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: |
+      python -m pip install --upgrade pip
+      pip install -r requirements.txt
     startCommand: rasa run --enable-api --cors "*"
     pythonVersion: "3.10"  # Specify your desired Python version here
