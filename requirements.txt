@@ -1,4 +1,3 @@
-pip
 rasa
 rasa-sdk
 setuptools 
